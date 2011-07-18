@@ -24,7 +24,6 @@ email:
 root:
 
 port: 4000
-permalink: /blog/:year/:month/:day/:title
 source: source
 destination: public
 plugins: plugins
