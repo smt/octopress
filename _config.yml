@@ -5,11 +5,11 @@ plugins: plugins
 code_dir: downloads/code
 port: 4000
 
-url: http://yoursite.com
-title: My Octopress Blog
+url: http://stephentudor.com
+title: Stephen Tudor
 permalink: /blog/:year/:month/:day/:title
-subtitle: A blogging framework for hackers.
-author: Your Name
+subtitle: Your front-end developer friend.
+author: Stephen Tudor
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
@@ -35,7 +35,7 @@ root:
 email:
 
 # Twitter
-twitter_user: imathis
+twitter_user: tudorstudio
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -47,7 +47,7 @@ google_plus_one: true
 google_plus_one_size: medium
 
 # Pinboard
-pinboard_user: imathis
+pinboard_user: smt
 pinboard_count: 3
 
 # Delicious
@@ -55,7 +55,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: octopress
+disqus_short_name: stephentudor
 
 # Google Analytics
 google_analytics_tracking_id:
