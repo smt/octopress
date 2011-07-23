@@ -2,7 +2,7 @@
 
 module OctopressFilters
   # Used on the blog index to split posts on the <!--more--> marker
-  def exerpt(input)
+  def excerpt(input)
     if input.index(/<!--\s*more\s*-->/i)
       input.split(/<!--\s*more\s*-->/i)[0]
     else
@@ -20,14 +20,23 @@ module OctopressFilters
   end
 
   # Replaces relative urls with full urls
-  def full_urls(input, url='')
+  def expand_urls(input, url='')
+    url ||= '/'
     input.gsub /(\s+(href|src)\s*=\s*["|']{1})(\/[^\"'>]+)/ do
       $1+url+$3
     end
   end
 
-  # Returns a url without the http:// for use in as a search modifier eg. 'search terms site:website.com'
-  def search_url(input)
+  # Removes trailing forward slash from a string for easily appending url segments
+  def strip_slash(input)
+    if input =~ /(.+)\/$|^\/$/
+      input = $1
+    end
+    input
+  end
+
+  # Returns a url without the protocol (http://)
+  def shorthand_url(input)
     input.gsub /(https?:\/\/)(\S+)/ do
       $2
     end
