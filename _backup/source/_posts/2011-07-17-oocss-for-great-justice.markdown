@@ -29,11 +29,11 @@ Us](http://www.webstock.org.nz/talks/speakers/nicole-sullivan/css-tools-massive-
 
 ## Semantics Pitfall
 
-![Pitfall Harry](/images/2011-07-17-oocss-for-great-justice/pitfall.jpeg)
-
 For the past several years, I have been painstakingly crafting HTML and
 CSS under the banner of "best practices." Currently, one such practice
 has been to aggressively scope CSS by content type.
+
+![Pitfall Harry](/images/2011-07-17-oocss-for-great-justice/pitfall.jpeg)
 
 Martin Sutherland [describes this
 approach](http://sunpig.com/martin/archives/2008/10/07/maintainable-css-modular-to-the-max.html)
