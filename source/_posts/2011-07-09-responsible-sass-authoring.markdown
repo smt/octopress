@@ -62,8 +62,7 @@ will result in CSS descendant selectors that look something like this:
 {% include_code 2011-07-09-responsible-sass-authoring/example-2.css %}
 
 Yuck. I'm not going to go into why this is bad, but you don't have to
-take my word for it; simply google "[CSS performance descendant
-selectors](//www.google.com/search?q=css+performance+descendant+selectors)"
+take my word for it; simply google "[CSS performance descendant selectors](//www.google.com/search?q=css+performance+descendant+selectors)"
 and read up.
 
 With Sass, this kind of CSS bloat is extremely easy to cause if you get
@@ -98,8 +97,7 @@ selectors with no properties, then a second huge list with the clearfix
 styles. Plus, all these bogus selectors tend to clog up dev tools like
 Firebug, as shown in this screenshot:
 
-![@extend .clearfix Firebug
-hell](/images/2011-07-09-responsible-sass-authoring/extend-clearfix-firebug-hell.png)
+![@extend .clearfix Firebug hell](/images/2011-07-09-responsible-sass-authoring/extend-clearfix-firebug-hell.png)
 
 Secondly, this could have all been avoided if I had been more pragmatic
 and simply used `.clearfix` (or another class &ndash; I commonly use

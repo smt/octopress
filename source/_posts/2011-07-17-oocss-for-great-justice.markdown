@@ -7,9 +7,9 @@ categories: [css]
 
 In my [previous post](/blog/2011/07/09/responsible-sass-authoring), I
 hinted at a growing concern with CSS performance. Among those pioneering
-ways to approach the issue of maintainable-yet-efficient CSS is [Nicole
-Sullivan](http://twitter.com/stubbornella), who is perhaps best known for her
-open source [Object-Oriented CSS](http://oocss.org) project.
+ways to approach the issue of maintainable-yet-efficient CSS is [Nicole Sullivan](http://twitter.com/stubbornella),
+who is perhaps best known for her open source [Object-Oriented CSS](http://oocss.org)
+project.
 
 ## Object-Oriented? CSS?
 
@@ -23,9 +23,7 @@ It's taken me quite some time to come around. There are things in the
 OOCSS code base that seem to fly in the face of commonly-accepted CSS
 best practices. It is precisely this kind of resistance in the community
 that must have prompted Nichole to deliver her latest talk this year at
-Webstock, entitled [Our Best Practices Are Killing
-Us](http://www.webstock.org.nz/talks/speakers/nicole-sullivan/css-tools-massive-websites)
-([slides](http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us)).
+Webstock, entitled [Our Best Practices Are Killing Us](http://www.webstock.org.nz/talks/speakers/nicole-sullivan/css-tools-massive-websites) ([slides](http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us)).
 
 ## Semantics Pitfall
 
@@ -35,11 +33,8 @@ has been to aggressively scope CSS by content type.
 
 ![Pitfall Harry](/images/2011-07-17-oocss-for-great-justice/pitfall.jpeg)
 
-Martin Sutherland [describes this
-approach](http://sunpig.com/martin/archives/2008/10/07/maintainable-css-modular-to-the-max.html)
-better and more succinctly than I could, but just recently [recanted in
-favor of
-OOCSS](http://www.sunpig.com/martin/archives/2011/06/25/oocss-and-html-semantics.html).
+Martin Sutherland [describes this approach](http://sunpig.com/martin/archives/2008/10/07/maintainable-css-modular-to-the-max.html)
+better and more succinctly than I could, but just recently [recanted in favor of OOCSS](http://www.sunpig.com/martin/archives/2011/06/25/oocss-and-html-semantics.html).
 Martin had watched Nichole's talk, and it appears to have had the same
 effect on him as it had on me. He writes:
 
@@ -49,8 +44,7 @@ somewhat heretical notion of adding "non-semantic" container elements
 and apparently "presentational" classnames to my HTML.
 {% endblockquote %}
 
-Martin [goes on to
-propose](http://www.sunpig.com/martin/archives/2011/06/25/oocss-and-html-semantics.html)
+Martin [goes on to propose](http://www.sunpig.com/martin/archives/2011/06/25/oocss-and-html-semantics.html)
 (and I think he's right on target here) that there are multiple layers
 of semantics that belong in HTML:
 
@@ -59,8 +53,7 @@ of semantics that belong in HTML:
 3. Visual semantics (representing visual intent)
 
 Lest we forget, one of the core purposes of CSS **is** to communicate
-the [visual
-semantics](http://www.stubbornella.org/content/2010/06/12/visual-semantics-in-html-and-css/)
+the [visual semantics](http://www.stubbornella.org/content/2010/06/12/visual-semantics-in-html-and-css/)
 of an HTML document. Many developers, myself included, have written many
 projects' worth of CSS that attempts to use only core HTML (structural)
 and domain-specific (ontological) semantics, while sidestepping the role
@@ -89,9 +82,7 @@ patterns, and our projects suffer for it.
 
 ## For Great Justice
 
-I've watched as some developers have begun to [wrestle with the concepts
-of
-OOCSS](http://lazukars.com/post/7300553347/brain-vs-object-oriented-css)
+I've watched as some developers have begun to [wrestle with the concepts of OOCSS](http://lazukars.com/post/7300553347/brain-vs-object-oriented-css)
 vs. what we have come to know as the industry standard practice of
 writing CSS in recent years.
 
@@ -107,12 +98,10 @@ naming.
 Not everything in OOCSS is a great idea to implement verbatim.  Remember
 that it is proof of concept and a collection of patterns, not a CSS
 boilerplate. I am still mildly horrified every time I see how `<b>` tags
-are used for rounded corners in the [module
-example](http://oocss.org/module.html), but I remind myself that the
-concepts are what make up OOCSS, not the specific implementation of the
-examples.
+are used for rounded corners in the [module example](http://oocss.org/module.html),
+but I remind myself that the concepts are what make up OOCSS, not the
+specific implementation of the examples.
 
-Finally, I have linked to Martin's [article on
-OOCSS](http://www.stubbornella.org/content/2010/06/12/visual-semantics-in-html-and-css/)
+Finally, I have linked to Martin's [article on OOCSS](http://www.stubbornella.org/content/2010/06/12/visual-semantics-in-html-and-css/)
 in several places throughout this post. It really is required reading if
 you author CSS as part of your day job.
