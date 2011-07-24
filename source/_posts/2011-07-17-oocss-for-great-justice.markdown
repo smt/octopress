@@ -31,8 +31,6 @@ For the past several years, I have been painstakingly crafting HTML and
 CSS under the banner of "best practices." Currently, one such practice
 has been to aggressively scope CSS by content type.
 
-![Pitfall Harry](/images/2011-07-17-oocss-for-great-justice/pitfall.jpeg)
-
 Martin Sutherland [describes this approach](http://sunpig.com/martin/archives/2008/10/07/maintainable-css-modular-to-the-max.html)
 better and more succinctly than I could, but just recently [recanted in favor of OOCSS](http://www.sunpig.com/martin/archives/2011/06/25/oocss-and-html-semantics.html).
 Martin had watched Nichole's talk, and it appears to have had the same
@@ -51,6 +49,8 @@ of semantics that belong in HTML:
 1. Structural semantics (core HTML elements)
 2. Ontological semantics (domain-specific meaning beyond core HTML)
 3. Visual semantics (representing visual intent)
+
+{% img left /images/2011-07-17-oocss-for-great-justice/pitfall.jpeg Pitfall Harry %}
 
 Lest we forget, one of the core purposes of CSS **is** to communicate
 the [visual semantics](http://www.stubbornella.org/content/2010/06/12/visual-semantics-in-html-and-css/)
@@ -86,14 +86,14 @@ I've watched as some developers have begun to [wrestle with the concepts of OOCS
 vs. what we have come to know as the industry standard practice of
 writing CSS in recent years.
 
+{% img right /images/2011-07-17-oocss-for-great-justice/ZeroWing.png ZeroWing %}
+
 Watch Nichole's OOCSS talks, and allow them ample time to marinate.
 Check out the [source](http://github.com/stubbornella/oocss) of the
 [OOCSS project](http://oocss.org). I'm still in process myself, as I
 continue to look for ways to strike the delicate balance between
 *appropriate* visual semantics in CSS and blatantly presentational
 naming.
-
-![ZeroWing](/images/2011-07-17-oocss-for-great-justice/ZeroWing.png)
 
 Not everything in OOCSS is a great idea to implement verbatim.  Remember
 that it is proof of concept and a collection of patterns, not a CSS
