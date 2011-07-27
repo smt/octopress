@@ -76,7 +76,7 @@ task :new_post, :title do |t, args|
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
-desc "Begin a new post in #{source_dir}/#{posts_dir}"
+desc "Create a new page in #{source_dir}/(filename)/index.#{new_page_ext}"
 task :new_page, :filename do |t, args|
   require './plugins/titlecase.rb'
   args.with_defaults(:filename => 'new-page')
@@ -163,7 +163,7 @@ desc "deploy public directory to github pages"
 task :push do
   puts "## Deploying branch to Github Pages "
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
-  system "cp -R #{public_dir}/ #{deploy_dir}"
+  system "cp -R #{public_dir}/* #{deploy_dir}"
   puts "\n## copying #{public_dir} to #{deploy_dir}"
   cd "#{deploy_dir}" do
     system "git add ."
