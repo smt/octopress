@@ -111,12 +111,11 @@ for this particular pattern:
 
 ## Sass =&gt; CSS
 
-It's important to remember that no matter what you do in Sass, it will
-eventually end up as CSS. Whether it does more harm than good will be up
-to you.
-
+{% pullquote %}
 I, for one, side with those who seek to balance CSS performance concerns
-with maintainability concerns. Ironically, though it might seem at first
-that we have veered too far towards the maintainability side of the
-spectrum with our CSS, it turns out that the status quo isn't terribly
-well suited for either maintainability or performance.
+with maintainability concerns. {" It&rsquo;s important to remember that no matter what you do in Sass, it will eventually end up as CSS. Whether it does more harm than good will be up to you. "} Ironically, though it
+might seem at first that we have veered too far towards the
+maintainability side of the spectrum with our CSS, it turns out that the
+status quo isn't terribly well suited for either maintainability or
+performance.
+{% endpullquote %}
