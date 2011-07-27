@@ -27,11 +27,9 @@ you.
 
 ## CSS Bloat
 
+{% pullquote %}
 Over a year of using Sass every day at my day job has
-taught me this:
-
-> Just because Sass allows you to do something, doesn't mean it should
-> be done.
+taught me this: {" Just because Sass allows you to do something, doesn&rsquo;t mean it should be&nbsp;done. "}
 
 Sass clearly offers many ways to make our lives easier as developers.
 The benefits of using it are obvious and many. `@import` is awesome; it
@@ -46,6 +44,7 @@ abuses these features can quickly become extremely bloated and
 challenging to maintain.  Let's take a look at some examples of some
 really sad CSS. The examples I'm using are inspired by actual projects
 I've worked on (with some key edits to protect the innocent).
+{% endpullquote %}
 
 *Note that I'm not blaming Sass itself for any of these problems. It's
 quite simply that using some Sass features in a certain way can
@@ -113,9 +112,12 @@ for this particular pattern:
 
 {% pullquote %}
 I, for one, side with those who seek to balance CSS performance concerns
-with maintainability concerns. {" It&rsquo;s important to remember that no matter what you do in Sass, it will eventually end up as CSS. Whether it does more harm than good will be up to you. "} Ironically, though it
-might seem at first that we have veered too far towards the
-maintainability side of the spectrum with our CSS, it turns out that the
-status quo isn't terribly well suited for either maintainability or
-performance.
+with maintainability concerns.
+{" It&rsquo;s important to remember that no matter what you do in Sass, it will eventually end up as&nbsp;CSS. "}
+Whether it does more harm than good will be up to you.
+
+Ironically, though it might seem at first that we have veered too far
+towards the maintainability side of the spectrum with our CSS, it turns
+out that the status quo isn't terribly well suited for either
+maintainability or performance.
 {% endpullquote %}
