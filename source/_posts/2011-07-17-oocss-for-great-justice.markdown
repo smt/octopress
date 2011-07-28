@@ -15,14 +15,14 @@ project.
 
 I have to admit that when I first checked out out OOCSS, I guffawed.
 While it's true that, at first blush, CSS does not have many of the
-traditional features of a genuine OO programming language, Nichole has
+traditional features of a genuine OO programming language, Nicole has
 been exploring ways in which CSS' inheritance/cascade can be analogous
 to OO concepts.
 
 It's taken me quite some time to come around. There are things in the
 OOCSS code base that seem to fly in the face of commonly-accepted CSS
 best practices. It is precisely this kind of resistance in the community
-that must have prompted Nichole to deliver her latest talk this year at
+that must have prompted Nicole to deliver her latest talk this year at
 Webstock, entitled [Our Best Practices Are Killing Us](http://www.webstock.org.nz/talks/speakers/nicole-sullivan/css-tools-massive-websites) ([slides](http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us)).
 
 ## Semantics Pitfall
@@ -33,7 +33,7 @@ has been to aggressively scope CSS by content type.
 
 Martin Sutherland [describes this approach](http://sunpig.com/martin/archives/2008/10/07/maintainable-css-modular-to-the-max.html)
 better and more succinctly than I could, but just recently [recanted in favor of OOCSS](http://www.sunpig.com/martin/archives/2011/06/25/oocss-and-html-semantics.html).
-Martin had watched Nichole's talk, and it appears to have had the same
+Martin had watched Nicole's talk, and it appears to have had the same
 effect on him as it had on me. He writes:
 
 {% blockquote Martin Sutherland http://www.sunpig.com/martin/archives/2011/06/25/oocss-and-html-semantics.html %}
@@ -88,7 +88,7 @@ writing CSS in recent years.
 
 {% img right /images/2011-07-17-oocss-for-great-justice/ZeroWing.png ZeroWing %}
 
-Watch Nichole's OOCSS talks, and allow them ample time to marinate.
+Watch Nicole's OOCSS talks, and allow them ample time to marinate.
 Check out the [source](http://github.com/stubbornella/oocss) of the
 [OOCSS project](http://oocss.org). I'm still in process myself, as I
 continue to look for ways to strike the delicate balance between
