@@ -43,6 +43,7 @@ desc "Generate jekyll site"
 task :generate do
   puts "## Generating Site with Jekyll"
   system "jekyll"
+  system "cp #{source_dir}/.htaccess #{public_dir}"
 end
 
 desc "Watch the site and regenerate when it changes"
