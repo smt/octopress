@@ -113,7 +113,12 @@ like this:
 At this point, your cursor should on the first character of the second
 line. Type `v$r=` to visually select the text to the end of the line,
 and replace all the characters with equals signs. That's it: the full
-command is `yypv$r=`.
+command is `yypv$r=`
+
+---
+
+**Update:** Honza Pokorny [pointed out](http://stephentudor.com/blog/2011/08/04/10-vim-techniques-for-novices#comment-277354134)
+a shorter alternative to this command: `YpVr=`
 
 If you ever just want 80 stars in a row, say, to section off a part of
 source code, you could just type `80i*<Esc>` -- easy.
@@ -187,9 +192,9 @@ sorted lines back to Vim.
 
 ## My dotvim
 
-I wouldn't consider [my Vim configuration](http://github/smt/dotvim) to
-be anything special, but it's mine, and I am always tweaking it (you Vim
-people know what I'm talking about). If you are curious about what I
+I wouldn't consider [my Vim configuration](http://github.com/smt/dotvim)
+to be anything special, but it's mine, and I am always tweaking it (you
+Vim people know what I'm talking about). If you are curious about what I
 might have in there, you can feel free have a look at it -- it's on
 GitHub, of course, and all the plugins are set up as Git submodules with
 Pathogen.
