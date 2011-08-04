@@ -23,9 +23,6 @@ layout: nil
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ post.id }}</id>
     <content type="html">{{ post.content | full_urls: site.url | xml_escape }}</content>
-    {% for category in post.categories %}
-      <category term="{{ category | xml_escape }}"/>
-    {% endfor %}
   </entry>
   {% endfor %}
 </feed>
