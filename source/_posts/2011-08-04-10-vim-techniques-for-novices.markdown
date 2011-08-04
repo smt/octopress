@@ -20,9 +20,10 @@ there.
 
 ### 1. Open with Cursor at Last Edit Position
 
-If you make a change to a file, and then re-open it later, the following
-snippet in your .vimrc will position the cursor at the last spot you
-made an edit before closing the file or Vim itself:
+This one isn't so much a technique as it is a preference. If you make a
+change to a file, and then re-open it later, the following snippet in
+your .vimrc will position the cursor at the last spot you made an edit
+prior to closing the buffer or Vim itself:
 
     autocmd BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
