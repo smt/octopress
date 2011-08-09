@@ -4,7 +4,6 @@
 
 url: http://stephentudor.com
 title: The Tude Abides
-permalink: /blog/:year/:month/:day/:title
 subtitle: A personal log of front-end developer Stephen Tudor
 author: Stephen Tudor
 simple_search: http://google.com/search
@@ -21,7 +20,8 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-port: 4000
+server_port: 4000
+permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
