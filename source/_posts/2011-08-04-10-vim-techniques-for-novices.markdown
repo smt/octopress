@@ -25,10 +25,12 @@ change to a file, and then re-open it later, the following snippet in
 your .vimrc will position the cursor at the last spot you made an edit
 prior to closing the buffer or Vim itself:
 
+``` vim
     autocmd BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
     \   exe "normal! g`\"" |
     \ endif
+```
 
 <!-- " -->
 
@@ -144,6 +146,7 @@ currently on.
 
 For some sane defaults, here are some of my .vimrc search settings:
 
+``` vim
     set hlsearch   " Highlight search matches
     set incsearch  " Highlight matches as you type
     set ignorecase " Case-insensitive searching
@@ -153,6 +156,7 @@ For some sane defaults, here are some of my .vimrc search settings:
     " Press space bar to turn off search highlighting
     " and clear any message displayed
     nnoremap <silent> <Space> :nohl<Bar>:echo<CR>
+```
 
 ### 9. Search &amp; Replace in a Buffer
 
@@ -184,7 +188,9 @@ Vim. Until there is better support for this feature in Vim itself, it is
 possible to pull off in an unorthodox way: don't use Vim! Try this on
 for size (from the command line):
 
+``` sh
     $ sed -i 's/pattern/replacement/' <files>
+```
 
 From within Vim, while in `` : `` command mode, you can use the same
 command, only beginning with a `` ! ``. This pipes the command directly
