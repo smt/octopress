@@ -6,7 +6,7 @@ title: Colophon
 This is the place to learn a little something about this blog, and
 perhaps a peek at how I operate as a developer and as a human.
 
-![Octopress](/images/colophon/octopress.png)
+{% img right /images/colophon/octopress.png Octopress %}
 
 The blog platform I'm using is called [Octopress](http://octopress.org),
 which is an extension of the static web framework
@@ -35,9 +35,8 @@ there is no server-side magic to concern myself with, and it really
 doesn't matter (as a pre-requisite, anyway) what my web host's
 capabilities are, as long as they can serve up HTML really fast.
 
-My favorite part: I can very easily deploy to [GitHub
-Pages](http://pages.github.com) or any other server via SSH with a simple
-rake command: `rake deploy`
+My favorite part: I can very easily deploy to [GitHub Pages](http://pages.github.com)
+or any other server via SSH with a simple rake command: `rake deploy`.
 
 Vim
 ---
@@ -46,10 +45,10 @@ Why am I suddenly so passionate about local authorship? It's because I
 use a really sweet text editor. That editor is [Vim](//vim.org).
 
 I won't go into too much detail about my personal Vim setup here (after
-all, you can check it out for yourself [on
-GitHub](//github.com/smt/dotvim)), but after a lot of tweaking, I'm very
-comfortable in my development environment, and it seems very natural to
-extend the benefits of using Vim to my writing activities.
+all, you can check it out for yourself [on GitHub](//github.com/smt/dotvim)),
+but after a lot of tweaking, I'm very comfortable in my development
+environment, and it seems very natural to extend the benefits of using
+Vim to my writing activities.
 
 I can't count the number of times my muscle-memory has betrayed me into
 trying to get some cool Vim command to work some other app. Well, that
@@ -78,8 +77,7 @@ world. And I have to believe that [GitHub](//github.com) has been a prominent
 contributor to the broader adoption of Git as *the* SCM of choice.
 Nothing against Mercurial, but it's true ;)
 
-I remember when the [Rails project
-moved](http://weblog.rubyonrails.org/2008/4/11/rails-premieres-on-github)
+I remember when the [Rails project moved](http://weblog.rubyonrails.org/2008/4/11/rails-premieres-on-github)
 from that crappy Trac server to Github. That was a very significant
 milestone for both Git and GitHub, and ever since then, I have watched
 both explode in popularity.
@@ -88,22 +86,21 @@ It may be a little mind-bending to understand at first, but Git's so
 fast and efficient, I'll never again use SVN on a personal project. Git
 has won me over as a developer, and GitHub has started to play a much
 larger role in my professional development as well. Just have a look; it
-is now [the dominant repository of open source
-projects](http://github.com/blog/865-github-dominates-the-forges) on the web.
+is now [the dominant repository of open source projects](http://github.com/blog/865-github-dominates-the-forges)
+on the web.
 
 Dvorak
 ------
 
-![Dvorak simplified keyboard](/images/colophon/dvorak.jpg)
-
-In 2007, I made the switch to the [Dvorak keyboard
-layout](http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard). I'd
-been struggling with wrist and hand issues, and prospect of 50% less
+In 2007, I made the switch to the [Dvorak keyboard layout](http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard).
+I'd been struggling with wrist and hand issues, and prospect of 50% less
 finger movement appealed to me. In addition, I despised the fact that I
 was a big cheater at typing with Qwerty; I always had to peek at the
 keys.  This time, I was determined to re-teach myself to touch-type
 properly, and starting with a clean slate seemed like a good way to do
 it.
+
+{% img /images/colophon/dvorak.jpg Dvorak simplified keyboard %}
 
 The experience reminded me of what I thought it must be like to undergo
 physical therapy. It took about 3 months to become roughly as proficient
@@ -151,4 +148,4 @@ promises up front!
 
 Here's to... *the future!*
 
-![Awesome bear dancing](http://bukk.it/beardance.gif)
+{% img http://bukk.it/beardance.gif Awesome bear dancing %}
