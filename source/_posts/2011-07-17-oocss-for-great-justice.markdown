@@ -25,6 +25,8 @@ best practices. It is precisely this kind of resistance in the community
 that must have prompted Nicole to deliver her latest talk this year at
 Webstock, entitled [Our Best Practices Are Killing Us](http://www.webstock.org.nz/talks/speakers/nicole-sullivan/css-tools-massive-websites) ([slides](http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us)).
 
+<!-- more -->
+
 ## Semantics Pitfall
 
 For the past several years, I have been painstakingly crafting HTML and

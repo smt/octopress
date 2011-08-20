@@ -18,6 +18,8 @@ their feet wet with the editor. Experienced Vimmers will already know
 all this stuff, and more power to them. This is for the Vim n00bs out
 there.
 
+<!-- more -->
+
 ### 1. Open with Cursor at Last Edit Position
 
 This one isn't so much a technique as it is a preference. If you make a

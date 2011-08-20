@@ -25,6 +25,8 @@ same could be true for the nested selectors; you just have to refer to
 `.article` once, and let the indentation take care of the scope for
 you.
 
+<!-- more -->
+
 ## CSS Bloat
 
 {% pullquote %}
