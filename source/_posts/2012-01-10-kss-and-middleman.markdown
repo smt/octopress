@@ -257,3 +257,14 @@ each of these projects.
 
 If you have used either Middleman or KSS, what has your experience been
 like thus far?
+
+## Update 2012-02-04
+
+I have pushed my working code to a [Github repo](http://github.com/smt/middleman-kss).
+Some of the gems are a little out of date, but I wanted to get my
+initial version up first, and then work through any issues that might
+arise from updating libraries. Please let me know what you think; I'm
+always open to suggestions for improvement.
+
+After checking out the code, just run `middleman` like any other
+Middleman app, and browse to `http://localhost:4567`.
