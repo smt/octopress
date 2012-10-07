@@ -2,13 +2,14 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 
-## -- Rsync Deploy config -- ##
+## -- Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "smt@stephentudor.com"
 ssh_port       = "22"
 document_root  = "~/stephentudor.com/"
 rsync_delete   = true
-deploy_default = "rsync"
+deploy_default = "s3"
+s3_bucket = "www.stephentudor.com"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -260,6 +261,12 @@ multitask :push do
     system "git push origin #{deploy_branch} --force"
     puts "\n## Github Pages deploy complete"
   end
+end
+
+desc "Deploy website via s3cmd"
+task :s3 do
+  puts "## Deploying website via s3cmd"
+  ok_failed system("s3cmd sync --acl-public --reduced-redundancy public/* s3://#{s3_bucket}/")
 end
 
 desc "Update configurations to support publishing to root or sub directory"
