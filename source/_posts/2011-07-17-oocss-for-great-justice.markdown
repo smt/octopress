@@ -2,7 +2,7 @@
 title: OOCSS, For Great Justice
 date: 2011-07-17 13:55
 layout: post
-categories: [css]
+categories: [code,css]
 ---
 
 In my [previous post](/blog/2011/07/09/responsible-sass-authoring), I

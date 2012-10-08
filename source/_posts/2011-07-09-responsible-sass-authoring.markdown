@@ -2,7 +2,7 @@
 title: Responsible Sass Authoring
 date: 2011-07-09 13:04
 layout: post
-categories: [css, sass]
+categories: [code,css,sass]
 ---
 
 In capable hands, [Sass](//sass-lang.org) can do amazing things for your

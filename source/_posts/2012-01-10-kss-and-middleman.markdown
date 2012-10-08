@@ -3,7 +3,7 @@ layout: post
 title: "KSS and Middleman"
 date: 2012-01-10 15:11
 comments: true
-categories: [css,ruby,sass]
+categories: [code,css,ruby,sass]
 ---
 
 I love the idea of building an "interactive style guide" for a website
