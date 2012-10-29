@@ -121,14 +121,13 @@ command is `yypv$r=`
 
 ---
 
-**Update:** Honza Pokorny [points out](http://stephentudor.com/blog/2011/08/04/10-vim-techniques-for-novices#comment-277354134)
-a shorter alternative to this command: `YpVr=`
+**Update:** Honza Pokorny pointed out a shorter alternative to this command: `YpVr=`
 
 ---
 
-**Update 2:** Santosh Kumar [observes](http://stephentudor.com/blog/2011/08/04/10-vim-techniques-for-novices#comment-277459396)
-that `` V `` may not be able to replace `` v$ `` in every situation,
-particularly if there is whitespace at the beginning of the line.
+**Update 2:** Santosh Kumar observed that `` V `` may not be able to replace
+`` v$ `` in every situation, particularly if there is whitespace at the
+beginning of the line.
 
 If you ever just want 80 stars in a row, say, to section off a part of
 source code, you could just type `80i*<Esc>` -- easy.
@@ -206,7 +205,7 @@ sorted lines back to Vim.
 
 ## My dotvim
 
-I wouldn't consider [my Vim configuration](http://github.com/smt/dotvim)
+I wouldn't consider [my Vim configuration](http://github.com/smt/dotfiles)
 to be anything special, but it's mine, and I am always tweaking it (you
 Vim people know what I'm talking about). If you are curious about what I
 might have in there, you can feel free have a look at it -- it's on
