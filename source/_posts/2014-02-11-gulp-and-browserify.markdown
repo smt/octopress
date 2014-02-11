@@ -7,12 +7,12 @@ categories: code
 ---
 Just a quick write-up of some things I've been playing with lately.
 
-A few weeks ago, at lunch with some old coworkers, someone mentioned that gulp
-might just be the new hotness that steals Grunt's thunder. More recently, I was
-inspired by [Martin Genev](http://www.100percentjs.com/just-like-grunt-gulp-browserify-now/)
-to look into the [gulp](http://gulpjs.com) build system and
-[Browserify](http://browserify.com). I'm pretty impressed with what I've seen
-of gulp thus far, but I feel the bigger story by far is Browserify.
+A few weeks ago, at lunch with some old coworkers, someone mentioned that
+[gulp](http://gulpjs.com) might just be the new hotness that steals Grunt's
+thunder. More recently, I was inspired by [Martin Genev](http://www.100percentjs.com/just-like-grunt-gulp-browserify-now/)
+to look into the gulp build system and [Browserify](http://browserify.com).
+I'm pretty impressed with what I've seen of gulp thus far, but I feel the
+bigger story by far is Browserify.
 
 ## gulp
 
@@ -47,7 +47,7 @@ needed?
 
 Browserify lets you do that. I wrote 3 or 4 modules, using node.js-style
 `require` statements for dependencies, and exposing what I needed to with
-`modules.exports`. With very little configuration (see the gulpfile.js example
+`module.exports`. With very little configuration (see the gulpfile.js example
 above), Browserify wrapped all my modules appropriately, and built them to a
 single JS file, which I loaded in the browser. It worked. It was glorious. The
 blinders were off.
