@@ -4,10 +4,10 @@
 
 url: http://stephentudor.com
 title: The Tude Abides
-subtitle: A personal log of front-end developer Stephen Tudor
+subtitle: A personal log of web developer Stephen Tudor
 author: Stephen Tudor
 simple_search: http://google.com/search
-description:
+description: I write about various tools and techniques relating to HTML, CSS, and JavaScript. The web is neat!
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /blog/:title
 source: source
 destination: public
 plugins: plugins
@@ -73,7 +73,7 @@ twitter_user: tagsoup
 twitter_follow_button: true
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
