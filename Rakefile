@@ -9,11 +9,11 @@ ssh_port       = "22"
 document_root  = "~/stephentudor.com/"
 rsync_delete   = true
 rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "s3"
+deploy_default = "push"
 s3_bucket = "www.stephentudor.com"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+deploy_branch  = "master"
 
 ## -- Misc Configs -- ##
 
