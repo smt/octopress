@@ -3,7 +3,7 @@ layout: post
 title: "Gulp and Browserify"
 date: 2014-02-11 15:16:11 -0500
 comments: true
-categories: code
+categories: [code]
 ---
 Just a quick write-up of some things I've been playing with lately.
 
@@ -13,6 +13,11 @@ thunder. More recently, I was inspired by [Martin Genev](http://www.100percentjs
 to look into the gulp build system and [Browserify](http://browserify.com).
 I'm pretty impressed with what I've seen of gulp thus far, but I feel the
 bigger story by far is Browserify.
+
+**Update (2014-04-09):**
+[Dan Tello](http://viget.com/about/team/dtello) has posted a
+[far superior contribution](http://viget.com/extend/gulp-browserify-starter-faq)
+on this topic. The examples he gives are really compelling.
 
 ## gulp
 
